@@ -12,7 +12,6 @@ pipeline {
                     }
                 }
             }
-        } 
             stage("hello world") {
                 steps {
                     script {
@@ -21,3 +20,4 @@ pipeline {
                 }
             }
         }
+}
