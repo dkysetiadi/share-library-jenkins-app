@@ -1,7 +1,7 @@
 @Library("share-library-jenkins@main") _
 
 pipeline {
-    agent any {
+    agent any 
         stages {
             stage("hello world") {
                 steps {
@@ -12,4 +12,3 @@ pipeline {
             }
         }
     }
-}
