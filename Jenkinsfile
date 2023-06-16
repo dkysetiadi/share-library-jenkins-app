@@ -1,5 +1,15 @@
 @Library("share-library-jenkins@main") _
 
-pznPipeline([
-    type: "maven"
-])
+pipeline {
+    agent any {
+        stages {
+            stage("hello world") {
+                steps {
+                    script {
+                        hello.world()
+                    }
+                }
+            }
+        }
+    }
+}
