@@ -1,6 +1,6 @@
 @Library("share-library-jenkins@main") _
 
-import dickysetiadi.jenkins.output;
+import dickysetiadi.jenkins.Output;
 
 pipeline {
     agent any
